@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.wholePage {
+  position: relative;
+}
+
+.App {
+  text-align: center;
+  position: relative;
+  height: 100%;
+}
+.App a {
+  color: white;
+  text-decoration: none;
+}
+.App img {
+  position: relative;
+}
+
+.homePage {
+  background-image: url('./barhapp-bg.png');
+  height: 86vh;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+.header {
+  background-color: #7015EB;
+  color: #FFFFFF;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  max-height: 70px;
+}
+.header h2 {
+  font-family: Pacifico;
+}
+.header small {
+  font-family: Pacifico;
+  padding-top: 0;
+  font-size: 8px;
+}
+
+
+
+
+.authDiv {
+  background-color: rgb(228, 228, 227);
+  margin-left: 20%;
+  margin-right: 20%;
+  display: inline-block;
+  padding: 0 25px 10px 25px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #7015EB;
+  justify-content: center;
+  background-color: rgba(169,169,169,.85);
+  position: relative;
+  margin-top: 70px;
+}
+.authDiv img {
+  max-width: 60%;
+}
+
+.authDiv h3 {
+  font-family: Pacifico;
+  color: #000000;
+}
+
+.barNames {
+  color: #7015EB;
+  display: flex;
+  height: 50px;
+  text-align: left;
+  padding-left: 25px;
+  background-color: rgb(205, 205, 205);
+  margin: 5px 5px 5px 5px;
+  border-radius: 5px;
+}
+.barNames h5{
+  text-align: left;
+  font-size: 12px;
+  display: inline;
+  margin-bottom: 1px;
+}
+.barNames h6 {
+  text-align: left;
+  margin-top: 2px;
+  margin-bottom: 0;
+  color: black;
+}
+.barNames h3 {
+  color: black;
+}
+.barNames span {
+  color: black;
+}
+.barNames .open {
+  color: #03a4d1;
+}
+.barNames .closed {
+  color: gray
+}
+.barNames:hover {
+  background-color:rgb(190, 190, 190);
+}
+.barNames .map-number {
+  flex: 1;
+  font-family: Pacifico;
+  font-size: 28px;
+  margin-top: auto;
+}
+.barInfo {
+  flex: 9;
+}
+
+/* .bar-numbers {
+  color: red !important;
+} */
+
+/* .barNumbers {
+  color: red;
+} */
+  
+.barList {
+  padding-bottom: 20px;
+
+  /* display: flex; */
+}
+
+.weatherConditions h5 {
+  display: inline;
+  margin: 0 10px 0 10px;
+  font-size: 12px;
+  font-family: Pacifico;
+}
+
+
+.regForm {
+  position: relative;
+
+}
+.regFormInput {
+  font-size: 10px;
+  font-family: Pacifico;
+  padding-bottom: 10px;
+
+}
+.regFormInput input {
+  margin: 6px 0 6px 0;
+
+}
+
+.loginForm {
+  position: relative;
+  font-family: Pacifico;
+}
+.loginFormInput {
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+.loginFormInput input {
+  margin: 6px 0 6px 0;
+}
+
+
+button {
+  background-color: #CDCDCD;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+input[type=submit] {
+    background-color: #7015EB;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.searchButton {
+  background-color: #7015EB;
+  padding: 3px 3px;
+  border-radius: 0;
+}
+
+.userContainer {
+  margin-top: 5px;
+  padding-top: 5px;
+}
+.userContainer input[type=text] {
+  height: 24px;
+  font-size: 15px;
+}
+.userContainer form {
+  height: 80vh;
+}
+
+.barsContainer {
+  background-color: rgb(228, 228, 227);
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-radius: 5px;
+  min-height: 100vh;
+  min-height: 100%;
+  margin-bottom: 25px;
+}
+.barsContainer h4 {
+  /* padding-top: 10px; */
+  margin-top: 7px;
+  padding-bottom: 0;
+  margin-bottom: 5px;
+  font-family: Pacifico;
+  font-size: 36px;
+}
+
+.weather h4 {
+  background-color: #7015EB;
+  color: #FFFFFF;
+  font-size: 18px;
+  border-radius: 5px 5px 0 0;
+}
+
+/* .tempNumber {
+  font-family: Pacifico;
+  color: red;
+} */
+
+.mapContainer {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  font-size: 8px;
+  background-color: #7015EB;
+  color: white;
+  padding-top: 5px;
+  bottom: 0;
+  width: 100%;
+  height: 1rem; 
+  position: relative;
+}
+.footer a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.showState {
+  background-color: green;
+  /* margin-bottom: 5px; */
+  position: relative;
+}
+
+a:hover {
+  color: #7BEAFE;
+}
+
+/* font-family: 'Varela Round';
+font-size: 2.5rem;
+line-height: 2.5rem;
+letter-spacing: 0.8rem;
+background: -webkit-linear-gradient(fade-out(white, 0.1), fade-out(white, 1));
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text; */
